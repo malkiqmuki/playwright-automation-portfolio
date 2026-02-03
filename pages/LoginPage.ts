@@ -1,4 +1,5 @@
 import { Page, Locator } from '@playwright/test';
+import { expect } from '@playwright/test';
 
 export class LoginPage {
   readonly page: Page;
@@ -26,6 +27,6 @@ export class LoginPage {
   }
 
   async getErrorMessage() {
-    return this.errorMessage.textContent();
+    await expect(this.errorMessage).toHaveText(/locked out/i);
   }
 }
