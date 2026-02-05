@@ -12,8 +12,33 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
   projects: [
-    { name: 'Chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'Firefox', use: { ...devices['Desktop Firefox'] } },
-    { name: 'WebKit', use: { ...devices['Desktop Safari'] } },
+    {
+      name: 'setup',
+      testMatch: /.*\.setup\.ts/,
+    },
+    {
+      name: 'Chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        storageState: 'auth.json',
+      },
+      dependencies: ['setup'],
+    },
+    {
+      name: 'Firefox',
+      use: {
+        ...devices['Desktop Firefox'],
+        storageState: 'auth.json',
+      },
+      dependencies: ['setup'],
+    },
+    {
+      name: 'WebKit',
+      use: {
+        ...devices['Desktop Safari'],
+        storageState: 'auth.json',
+      },
+      dependencies: ['setup'],
+    },
   ],
 });
