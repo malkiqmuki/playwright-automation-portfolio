@@ -1,4 +1,4 @@
-![Playwright CI](https://github.com/malkiqmuki/playwright-automation-portfolio/actions/workflows/playwright-ci.yml/badge.svg)
+![Playwright CI](https://github.com/malkiqmuki/playwright-automation-portfolio/actions/workflows/playwright-tests.yml/badge.svg)
 
 # Playwright Automation Portfolio
 
