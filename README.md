@@ -62,3 +62,6 @@ npx playwright test --project=firefox
 
 6. Show HTML report
 npx playwright show-report
+
+## HTML Test Report
+[Open full HTML report](playwright-report/index.html)

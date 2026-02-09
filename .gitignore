@@ -2,4 +2,3 @@
 auth.json
 # Playwright artifacts
 test-results/
-playwright-report/
