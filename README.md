@@ -4,7 +4,9 @@
 ![Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)
 
 ## HTML Test Report
-[Open full HTML report](playwright-report/index.html)
+![Test Report Summary](screenshots/html-report-summary1.png)
+![Test Report Summary](screenshots/html-report-summary2.png)
+![Test Report Summary](screenshots/html-report-summary3.png)
 
 # Playwright Automation Portfolio
 
