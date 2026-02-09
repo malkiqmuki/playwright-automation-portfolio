@@ -4,6 +4,10 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30 * 1000,
   retries: 1,
+  reporter: [
+    ['list'],
+    ['html', { outputFolder: 'playwright-report', open: 'never' }]
+  ],
   use: {
     baseURL: 'https://www.saucedemo.com',
     headless: true,
