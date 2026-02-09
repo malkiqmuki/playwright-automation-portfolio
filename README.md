@@ -3,12 +3,12 @@
 ![NPM](https://img.shields.io/badge/npm-9.8-blue)
 ![Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)
 
+# Playwright Automation Portfolio
+
 ## HTML Test Report
 ![Test Report Summary](screenshots/html-report-summary1.png)
 ![Test Report Summary](screenshots/html-report-summary2.png)
 ![Test Report Summary](screenshots/html-report-summary3.png)
-
-# Playwright Automation Portfolio
 
 ## Project Overview
 UI automation framework built with Playwright and TypeScript.  
