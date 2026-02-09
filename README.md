@@ -3,6 +3,9 @@
 ![NPM](https://img.shields.io/badge/npm-9.8-blue)
 ![Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)
 
+## HTML Test Report
+[Open full HTML report](playwright-report/index.html)
+
 # Playwright Automation Portfolio
 
 ## Project Overview
@@ -62,6 +65,3 @@ npx playwright test --project=firefox
 
 6. Show HTML report
 npx playwright show-report
-
-## HTML Test Report
-[Open full HTML report](playwright-report/index.html)
